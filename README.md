@@ -17,11 +17,9 @@ Download this zip file: https://georgerosar.com/rainbowAandBaE/rainbowTablesA_an
 The password for the zip file is georgerosar.com
 
 Copy A_.enc and BaE_.enc from the zip file to magicNumbers/magicNumbers/ 
-
 This directory is also where the .swift files are for double checking
 
 Open magicNumbers.xcodeproj in XCode somewhat recent
-
 Build for your architecture of import
 
 Save the Framework and import into your app
