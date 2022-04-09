@@ -57,4 +57,25 @@ var magicNumberArrayBaE:MagicNumbersStructBaE!
         
         self.magicNumberArray = MagicNumbersStructA()
         self.magicNumberArrayBaE = MagicNumbersStructBaE()
+        
+        self.magicNumberArray.magicNumbersSetZero.forEach { theTestArrayInt64 in
+                let theTestDouble:Double = Double(theTestArrayInt64)
+                //do something
+        }
+        self.magicNumberArray.magicNumbersSetOne.forEach { theTestArrayInt64 in
+                let theTestDouble:Double = Double(theTestArrayInt64)
+                //do something
+        }
+        //repeat for self.magicNumberArray.magicNumbersSetOne through self.magicNumberArray.magicNumbersSetSixteen
+        
+        
+        self.magicNumberArrayBaE.magicNumbersSetZero.forEach { theTestArrayInt64 in
+                let theTestDouble:Double = Double(theTestArrayInt64)
+                //do something
+        }
+        self.magicNumberArrayBaE.magicNumbersSetOne.forEach { theTestArrayInt64 in
+                let theTestDouble:Double = Double(theTestArrayInt64)
+                //do something
+        }
+        //repeat for self.magicNumberArrayBaE.magicNumbersSetOne through self.magicNumberArrayBaE.magicNumbersSetSixteen
 ```
