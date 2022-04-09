@@ -11,7 +11,7 @@ if you want commercial usage and/or help contact george@georgerosar.com
 
 
 Instructions:
-Download this zip file:
+Download this zip file: https://georgerosar.com/rainbowAandBaE/rainbowTablesA_and_BaE_copyright_George_C_Rosar_II.zip
 
 
 The password for the zip file is georgerosar.com
