@@ -14,7 +14,7 @@ Instructions:
 Download this zip file: https://georgerosar.com/rainbowAandBaE/rainbowTablesA_and_BaE_copyright_George_C_Rosar_II.zip
 
 
-The password for the zip file is georgerosar.com.  
+The password for the zip file is georgerosar.com 
 
 Copy A_.enc and BaE_.enc from the zip file to magicNumbers/magicNumbers/    
 This directory is also where the .swift files are for double checking.     
