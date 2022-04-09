@@ -36,6 +36,8 @@ var magicNumberArrayBaE:MagicNumbersStructBaE!
 ```
 
 ```swift
+        //In viewDidLoad
+        
         //One:      0       -    <664585        //magicNumberArray.magicNumbersSetOne
         //Two:      664585  -    <1329170       //magicNumberArray.magicNumbersSetTwo
         //Three:    1329170 -    <1993755       //magicNumberArray.magicNumbersSetThree
@@ -52,4 +54,7 @@ var magicNumberArrayBaE:MagicNumbersStructBaE!
         //Fourteen: 8639605 -    <9304190       //magicNumberArray.magicNumbersSetFourteen
         //Fifteen:  9304190 -    <9968775       //magicNumberArray.magicNumbersSetFifteen
         //Sixteen:  9968775 -    <10633360      //magicNumberArray.magicNumbersSetSixteen
+        
+        self.magicNumberArray = MagicNumbersStructA()
+        self.magicNumberArrayBaE = MagicNumbersStructBaE()
 ```
