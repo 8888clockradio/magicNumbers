@@ -12,7 +12,7 @@ Licensed in Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Interna
 if you want commercial usage and/or help contact george@georgerosar.com
 
 
-Instructions:
+Instructions:       
 Download this zip file: https://georgerosar.com/rainbowAandBaE/rainbowTablesA_and_BaE_copyright_George_C_Rosar_II.zip
 
 
