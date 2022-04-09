@@ -1,7 +1,7 @@
 # magicNumbers
  
 a complete 64-bit set of rainbow tables, Table A and Table BaE, re-imagined primes.  
-each rainbow table entry is a near max number Int64 denominator
+each rainbow table entry is a near max number Int64 denominator encoded two seperate ways with prime numbers
 
 for use in swift and objective-c/c++.  
 
