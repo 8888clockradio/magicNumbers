@@ -45,7 +45,7 @@ var magicNumberArrayBaE:MagicNumbersStructBaE!
         //Five:     2658340 -    <3322925       //magicNumberArray.magicNumbersSetFive
         //Six:      3322925 -    <3987510       //magicNumberArray.magicNumbersSetSix
         //Seven:    3987510 -    <4652095       //magicNumberArray.magicNumbersSetSeven
-        //Eight:    4652095 -    <5316680       //magicNumberArray.magicNumbersSetEight
+        //Eight:    4652095 -    <5316680       //magicNumberArray.magicNumbersSetEightTabBaE
         //Nine:     5316680 -    <5981265       //magicNumberArray.magicNumbersSetNine
         //Ten:      5981265 -    <6645850       //magicNumberArray.magicNumbersSetTen
         //Eleven:   6645850 -    <7310435       //magicNumberArray.magicNumbersSetEleven
