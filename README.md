@@ -8,3 +8,15 @@ Copyright 2020-2022 George C. Rosar II
 Licensed in Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
 
 if you want commercial usage and/or help contact george@georgerosar.com
+
+
+Instructions:
+Download this zip file:
+
+
+The password for the zip file is georgerosar.com
+Copy A_.enc and BaE_.enc from the zip file to magicNumbers/magicNumbers/ 
+This directory is also where the .swift files are for double checking
+
+Build for your architecture of import
+Save the Framework and import into your app
