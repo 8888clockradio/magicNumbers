@@ -33,84 +33,9 @@ public class MagicNumbersStructBaE {
     public var magicNumbersSetFourteen:[Int64] = []
     public var magicNumbersSetFifteen:[Int64] = []
     public var magicNumbersSetSixteen:[Int64] = []
-    
-    //https://stackoverflow.com/questions/55385273/prime-numbers-print-from-range-2-100
-    /*
-    private func findPrimeNumberlist(fromNumber:Int64, toNumber: Int64) -> [Int64]
-    {
-        var primes:[Int64] = []
-        
-        for i in fromNumber...toNumber
-        {
-            var isPrime = true
-            if i <= 1 { // number must be positive integer
-                isPrime = false
-            }
-            else if i <= 3 {
-                isPrime = true
-            }
-            else {
-                for j in 2...i/2 // here i am using loop from 2 to i/2 because it will reduces the  iteration.
-                {
-                    if i%j == 0 { // number must have only 1 factor except 1. so use break: no need to check further
-                        isPrime = false
-                        break
-                    }
-                }
-            }
-            if isPrime  {
-                primes.append(Int64(i))
-            }
-        }
-        return primes
-    }
-    
-    private func generateMagicNumber(theArray:[Int64]) -> [Int64] {
-        var theReturnArray:[Int64] = []
-    
-        theArray.forEach { theValue in
-            let theRatio:Double = (Double(MAXMAX) / Double(theValue))
-            let theRatioInverse:Double = (Double(theValue) / Double(MAXMAX))
-            let theInteger:Int64 = Int64(theRatio.rounded(.towardZero))
-            
-            if (theRatio >= 1.0) {
-                let newX:Double = ((Double(theValue) * Double(theRatioInverse)) * Double(theInteger))
-                let theReturn:Double = Double((abs(newX) + 0.5)).rounded(.towardZero)
-                
-                theReturnArray.append(Int64(theReturn))
-            }
-            else {
-                let newY:Double = ((Double(theRatio) * Double(theValue)) * Double(theInteger))
-                theReturnArray.append(Int64(newY))
-                
-                let theReturn:Double = Double((abs(newY) + 0.5)).rounded(.towardZero)
-                
-                theReturnArray.append(Int64(theReturn))
-            }
-        }
-        return theReturnArray
-    }*/
+
     
     public init() {
-        /*
-        magicNumbersSetOne = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 2, toNumber: 10000141 ))
-        magicNumbersSetTwo = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 10000169, toNumber: 11258684 ))
-        magicNumbersSetThree = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 11258685, toNumber: 11923269 ))
-        magicNumbersSetFour = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 11923270, toNumber: 12587854 ))
-        magicNumbersSetFive = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 12587855, toNumber: 13252439 ))
-        magicNumbersSetSix = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 13252440, toNumber: 13917024 ))
-        magicNumbersSetSeven = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 13917025, toNumber: 14581609 ))
-        magicNumbersSetEightTabBaE = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 14581610, toNumber: 15246194 ))
-        magicNumbersSetNine = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 15246195, toNumber: 15910779 ))
-        magicNumbersSetTen = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 15910780, toNumber: 16575364 ))
-        magicNumbersSetEleven = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 16575365, toNumber: 17239949 ))
-        magicNumbersSetTwelve = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 17239950, toNumber: 17904534 ))
-        magicNumbersSetThirteen = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 17904535, toNumber: 18569119 ))
-        magicNumbersSetFourteen = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 18569120, toNumber: 19233704 ))
-        magicNumbersSetFifteen = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 19233705, toNumber: 19898289 ))
-        magicNumbersSetSixteen = generateMagicNumber(theArray: findPrimeNumberlist(fromNumber: 19898290, toNumber: 20562874 ))
-         */
-        
         let fileURL = URL(fileURLWithPath: Bundle(for: type(of : self)).path(forResource: "BaE_", ofType: "enc")!)
         let data = try! Data(contentsOf: fileURL)
         guard let plist = try! PropertyListSerialization.propertyList(from: data, options: .mutableContainers, format: nil) as? NSDictionary else {return}
@@ -201,19 +126,3 @@ public class MagicNumbersStructBaE {
             }
         }
 }
-//1  prime(from: 2 to: 10000141)			1  findPrimeNumberlist(fromNumber: 2, toNumber: 10000141 )
-//2  prime(from: 10000169 to: 11258684)		2  findPrimeNumberlist(fromNumber: 10000169, toNumber: 11258684 )
-//3  prime(from: 11258685 to: 11923269)		3  findPrimeNumberlist(fromNumber: 11258685, toNumber: 11923269 )
-//4  prime(from: 11923270 to: 11258684)		4  findPrimeNumberlist(fromNumber: 11923270, toNumber: 12587854 )
-//5  prime(from: 12587855 to: 13252439)		5  findPrimeNumberlist(fromNumber: 12587855, toNumber: 13252439 )
-//6  prime(from: 13252440 to: 13917024)		6  findPrimeNumberlist(fromNumber: 13252440, toNumber: 13917024 )
-//7  prime(from: 13917025 to: 14581609)		7  findPrimeNumberlist(fromNumber: 13917025, toNumber: 14581609 )
-//8  prime(from: 14581610 to: 15246194)		8  findPrimeNumberlist(fromNumber: 14581610, toNumber: 15246194 )
-//9  prime(from: 15246195 to: 15910779)		9  findPrimeNumberlist(fromNumber: 15246195, toNumber: 15910779 )
-//10 prime(from: 15910780 to: 16575364)		10 findPrimeNumberlist(fromNumber: 15910780, toNumber: 16575364 )
-//11 prime(from: 16575365 to: 17239949)		11 findPrimeNumberlist(fromNumber: 16575365, toNumber: 17239949 )
-//12 prime(from: 17239950 to: 17904534)		12 findPrimeNumberlist(fromNumber: 17239950, toNumber: 17904534 )
-//13 prime(from: 17904535 to: 18569119)		13 findPrimeNumberlist(fromNumber: 17904535, toNumber: 18569119 )
-//14 prime(from: 18569120 to: 19233704)		14 findPrimeNumberlist(fromNumber: 18569120, toNumber: 19233704 )
-//15 prime(from: 19233705 to: 19898289)		15 findPrimeNumberlist(fromNumber: 19233705, toNumber: 19898289 )
-//16 prime(from: 19898290 to: 20562874)		16 findPrimeNumberlist(fromNumber: 19898290, toNumber: 20562874 )
